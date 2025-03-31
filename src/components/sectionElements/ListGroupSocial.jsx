@@ -38,7 +38,7 @@ export default function ListGroupSocial({ LightMode }) {
             ? "text-black"
             : "text-black"
           : scrolling
-          ? "text-lighter"
+          ? "text-black"
           : "text-black transition-color duration-1000"
       }`}
     >
@@ -58,10 +58,10 @@ export default function ListGroupSocial({ LightMode }) {
                 LightMode
                   ? scrolling
                     ? "hover:text-black"
-                    : "hover:text-white"
+                    : "hover:text-black"
                   : scrolling
-                  ? "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
-                  : "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
+                  ? "hover:text-black [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
+                  : "hover:text-black [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
               } `}
           >
             {content.texts.navbar.menuItems[0]}
@@ -71,7 +71,7 @@ export default function ListGroupSocial({ LightMode }) {
               LightMode
                 ? scrolling
                   ? "bg-black"
-                  : "bg-white"
+                  : "bg-black"
                 : scrolling
                 ? "bg-lighter"
                 : "bg-lighter"
@@ -96,10 +96,10 @@ export default function ListGroupSocial({ LightMode }) {
                 LightMode
                   ? scrolling
                     ? "hover:text-black"
-                    : "hover:text-white"
+                    : "hover:text-black"
                   : scrolling
-                  ? "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
-                  : "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
+                  ? "hover:text-black [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
+                  : "hover:text-black [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
               } `}
           >
             {content.texts.navbar.menuItems[1]}
@@ -109,7 +109,7 @@ export default function ListGroupSocial({ LightMode }) {
               LightMode
                 ? scrolling
                   ? "bg-black"
-                  : "bg-white"
+                  : "bg-black"
                 : scrolling
                 ? "bg-lighter"
                 : "bg-lighter"
@@ -133,10 +133,10 @@ export default function ListGroupSocial({ LightMode }) {
                 LightMode
                   ? scrolling
                     ? "hover:text-black"
-                    : "hover:text-white"
+                    : "hover:text-black"
                   : scrolling
-                  ? "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
-                  : "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
+                  ? "hover:text-black [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
+                  : "hover:text-black [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
               } `}
           >
             {content.texts.navbar.menuItems[2]}
@@ -146,7 +146,7 @@ export default function ListGroupSocial({ LightMode }) {
               LightMode
                 ? scrolling
                   ? "bg-black"
-                  : "bg-white"
+                  : "bg-black"
                 : scrolling
                 ? "bg-lighter"
                 : "bg-lighter"
@@ -170,10 +170,10 @@ export default function ListGroupSocial({ LightMode }) {
                 LightMode
                   ? scrolling
                     ? "hover:text-black"
-                    : "hover:text-white"
+                    : "hover:text-black"
                   : scrolling
-                  ? "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
-                  : "hover:text-lighter [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
+                  ? "hover:text-black [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
+                  : "hover:text-black [text-shadow:_2px_2px_3px_rgb(0_0_0_/_0%)]"
               } `}
           >
             {content.texts.navbar.menuItems[3]}
@@ -183,7 +183,7 @@ export default function ListGroupSocial({ LightMode }) {
               LightMode
                 ? scrolling
                   ? "bg-black"
-                  : "bg-white"
+                  : "bg-black"
                 : scrolling
                 ? "bg-lighter"
                 : "bg-lighter"
