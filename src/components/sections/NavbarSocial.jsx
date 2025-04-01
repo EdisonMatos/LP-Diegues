@@ -86,7 +86,7 @@ export default function NavbarSocial({ LightMode }) {
           LightMode
             ? scrolling
               ? "bg-white shadow-md"
-              : "desktop1:bg-black/20"
+              : "desktop1:bg-white/80"
             : scrolling
             ? "bg-gradient-to-b from-black to-bgSectionDark bg-opacity-100 shadow-lg transition-all duration-1000 border-b-[1px] border-primary"
             : "transition-colors duration-1000 border-b-[1px] border-transparent border-black"
@@ -102,7 +102,7 @@ export default function NavbarSocial({ LightMode }) {
             offset={-100}
             href="#"
           >
-             <img
+            <img
               src={content.texts.navbar.logo.img}
               alt={content.texts.navbar.logo.alt}
               className={`${
@@ -125,7 +125,8 @@ export default function NavbarSocial({ LightMode }) {
               <Button
                 aria-label={content.texts.hero.ctaButtonAriaLabel}
                 label={content.texts.navbar.ctaButtonTextResponsive}
-                onClick={() => navigate("/whatsapp")}
+                // onClick={() => navigate("/whatsapp")}
+                buttonLink={content.texts.links.ctaWhatsapp}
                 className={`${scrolling ? "" : ""}`}
                 size="small"
                 icon={<FaWhatsapp />}
