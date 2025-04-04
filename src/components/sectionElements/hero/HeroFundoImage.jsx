@@ -118,7 +118,7 @@ export default function HeroFundoImage({ appDownloadButtons }) {
                   )}
                 </div>
               </div>
-              <div className="flex justify-center w-full tablet1:w-[450px] desktop1:w-[42%] desktop2:w-[42.8%]">
+              <div className="flex justify-center w-full phone3:max-w-[423px] tablet1:w-[450px] desktop1:w-[42%] desktop2:w-[42.8%]">
                 <MotionDivDownToUp className="relative flex justify-end w-full ">
                   <div
                     className="bg-center rounded-xl w-full h-[350px] tablet1:h-[380px] desktop1:h-[500px] desktop1:w-[500px] bg-cover bg-no-repeat tablet1:shadow-custom-opacity tablet1:shadow-black/30"
