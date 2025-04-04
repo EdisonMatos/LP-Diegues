@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import IconButton from "../interactives/IconButton";
 import Button from "../interactives/Button";
 import { useNavigate } from "react-router-dom";
+// conflito
 
 export default function ListGroupSocial({ LightMode }) {
   const navigate = useNavigate();
