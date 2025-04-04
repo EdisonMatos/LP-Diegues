@@ -88,7 +88,7 @@ export default function NavbarSocial({ LightMode }) {
               ? "bg-white shadow-md"
               : "desktop1:bg-gradient-to-b from-white to-transparent transition-colors"
             : scrolling
-            ? "bg-gradient-to-b from-transparent to-transparent bg-opacity-100 shadow-lg transition-all duration-1000 border-b-[1px] border-none"
+            ? "bg-gradient-to-b from-white to-white bg-opacity-100 shadow-lg transition-all duration-1000 border-b-[1px] border-none"
             : "bg-gradient-to-b from-white to-transparent transition-colors duration-1000 border-b-[1px] border-none "
         }`}
       >
