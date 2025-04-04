@@ -38,7 +38,7 @@ export default function ListGroupSocial({ LightMode }) {
             ? "text-black"
             : "text-black"
           : scrolling
-          ? "text-lighter"
+          ? "text-black"
           : "text-black transition-color duration-1000"
       }`}
     >
