@@ -73,8 +73,8 @@ export default function ListGroupSocial({ LightMode }) {
                   ? "bg-black"
                   : "bg-black"
                 : scrolling
-                ? "bg-lighter"
-                : "bg-lighter"
+                ? "bg-black"
+                : "bg-black"
             }`}
           ></div>
         </Link>
@@ -111,8 +111,8 @@ export default function ListGroupSocial({ LightMode }) {
                   ? "bg-black"
                   : "bg-black"
                 : scrolling
-                ? "bg-lighter"
-                : "bg-lighter"
+                ? "bg-black"
+                : "bg-black"
             }`}
           ></div>
         </Link>
@@ -148,8 +148,8 @@ export default function ListGroupSocial({ LightMode }) {
                   ? "bg-black"
                   : "bg-black"
                 : scrolling
-                ? "bg-lighter"
-                : "bg-lighter"
+                ? "bg-black"
+                : "bg-black"
             }`}
           ></div>
         </Link>
@@ -185,8 +185,8 @@ export default function ListGroupSocial({ LightMode }) {
                   ? "bg-black"
                   : "bg-black"
                 : scrolling
-                ? "bg-lighter"
-                : "bg-lighter"
+                ? "bg-black"
+                : "bg-black"
             }`}
           ></div>
         </Link>
