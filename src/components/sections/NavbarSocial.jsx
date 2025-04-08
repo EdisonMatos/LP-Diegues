@@ -86,10 +86,10 @@ export default function NavbarSocial({ LightMode }) {
           LightMode
             ? scrolling
               ? "bg-white shadow-md"
-              : "desktop1:bg-white/80"
+              : "desktop1:bg-gradient-to-b from-white to-transparent transition-colors"
             : scrolling
-            ? "bg-gradient-to-b from-black to-bgSectionDark bg-opacity-100 shadow-lg transition-all duration-1000 border-b-[1px] border-primary"
-            : "transition-colors duration-1000 border-b-[1px] border-transparent border-black"
+            ? "bg-gradient-to-b from-white to-white bg-opacity-100 shadow-lg transition-all duration-1000 border-b-[1px] border-none"
+            : "bg-gradient-to-b from-white to-transparent transition-colors duration-1000 border-b-[1px] border-none "
         }`}
       >
         <Navbar>
@@ -109,7 +109,7 @@ export default function NavbarSocial({ LightMode }) {
                 LightMode
                   ? scrolling
                     ? "bg-transparent w-[80%] tablet1:w-[70%] tablet2:w-[80%] desktop1:w-[70%] px-3 py-3 desktop2:w-[80%] transition-all duration-1000"
-                    : " w-full my-[20px] phone3:max-w-[180px] tablet1:w-[90%] desktop1:w-[80%] desktop2:w-[90%] px-3 py-3 transition-all duration-1000"
+                    : " w-full phone3:max-w-[180px] tablet1:w-[90%] desktop1:w-[80%] desktop2:w-[90%] px-3 py-3 transition-all duration-1000"
                   : scrolling
                   ? "bg-transparent w-[70%] phone3:w-[60%] tablet1:w-[80%] tablet2:w-[70%] desktop1:w-[80%] desktop2:w-[80%] transition-all duration-1000"
                   : "bg-transparent my-[20px] w-full transition-all duration-1000"
